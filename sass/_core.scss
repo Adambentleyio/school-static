@@ -1,0 +1,58 @@
+:root {
+  // Colors
+  --bg-primary: #212d44;
+  --bg-secondary: #005bc5;
+  --bg-pink: #d90f5a;
+  --bg-mint: #0de5a8;
+  --bg-sky: #30c4c9;
+  --bg-orange: #ff6e27;
+  --bg-yellow: #ffb60b;
+  --bg-purple: #4f2958;
+  --bg-pea: #88c100;
+  --bg-hover: #117bc5;
+  --gap: 1.5px;
+
+  // Fonts
+  --font-primary: "Sniglet", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+
+  // Padding-inline
+  --px-4: 1rem;
+  --px-8: 2rem;
+  --px-16: 4rem;
+
+  --transition-all: all 0.3s ease-in-out;
+}
+
+// Global styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  letter-spacing: 4px;
+}
+
+p,
+button,
+li,
+a {
+  font-family: var(--font-primary);
+  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+button {
+  border: none;
+  color: #f9f9f9;
+  font-family: var(--font-primary);
+  cursor: pointer;
+}

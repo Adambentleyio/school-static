@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to main CSS file -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- Font awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Static school</title>
+  </head>
+  <body>
+    <!-- Header nav and carousel -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.jpg" alt=""></img>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="tel:0777777777" class="sm-hidden">01234 567890</a>
+                <a href="tel:0777777777" class="md"><i class="fa-solid fa-phone"></i></a>
+                <button type="button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button type="button" id="nav-toggle" class="hamburger-menu">
+                <div class="hamburger-top"></div>
+                <div class="hamburger-middle"></div>
+                <div class="hamburger-bottom"></div>
+
+                </button>
+                <!-- UL list -->
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Curricular</a></li>
+                <li><a href="">Parents</a></li>
+                <li><a href="">Uniform</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">Calendar</a></li>
+                <li><a href="">Staff</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Hero Carousel Section -->
+    <section aria-label="Carousel">
+        <p class="sr-only">Carousel with three images. Use the Previous and Next buttons to navigate, or the slide dot buttons at the end to jump to slides.</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="title-overlay hero-text">
+                <h1 id="test">Excellent primary school and preschool in the heart of the city</h1>
+                <button type="button">Find out more</button>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/school.jpg" class="d-block w-100" alt="An image of the school grounds overlooking the rugby pitches">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/school.jpg" class="d-block w-100" alt="an image of school boys involved in rugby training">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/school.jpg" class="d-block w-100" alt="an image of a girl in a classroom reading a book with a laptop open to one side">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    </header>
+
+    <!-- Grid links section -->
+    <section>
+        <div class="link-items-grid">
+            <a href="#" class="card">
+                <img src="./assets/child.jpg" alt="">
+                <div class="card-content">
+                    <h3>Pastoral Support</h3>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./assets/ducks.jpg" alt="">
+                <div class="card-content">
+                    <h3>Calendar</h3>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./assets/piano.jpg" alt="">
+                <div class="card-content">
+                    <h3>Busy Bees</h3>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./assets/sports.jpg" alt="">
+                <div class="card-content">
+                    <h3>News</h3>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./assets/book.jpg" alt="">
+                <div class="card-content">
+                    <h3>Curriculum</h3>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./assets/rugby.jpg" alt="">
+                <div class="card-content">
+                    <h3>First School</h3>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./assets/uniform.jpg" alt="">
+                <div class="card-content">
+                    <h3>Children</h3>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./assets/classroom.jpg" alt="">
+                <div class="card-content">
+                    <h3>Parents</h3>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <h2>Useful Links</h2>
+                <div class="footer-links-container">
+                    <div class="footer-links-left">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Curriculum</a></li>
+                            <li><a href="">Academic</a></li>
+                            <li><a href="">Pastoral support</a></li>
+                            <li><a href="">Extra Curricular</a></li>
+                            <li><a href="">Admissions</a></li>
+                            <li><a href="">Parents</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-right">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Curriculum</a></li>
+                            <li><a href="">Academic</a></li>
+                            <li><a href="">Pastoral support</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-contact-info">
+                <h2>Contact Information</h2>
+                <div class="footer-contact-container">
+                    <address>
+                        <p>Example Primary School</p>
+                        <p>Example Road</p>
+                        <p>Example Town</p>
+                        <p>Example County</p>
+                        <p>Example Postcode</p>
+                        <p>01234 567890</p>
+                    </address>
+                    <address>
+                        <p>Tel</p>
+                        <a href="tel:01234567890">01234 567890</a>
+                        <p>Email</p>
+                        <a href="to:hello@school.ac.uk">hello@school.ac.uk</a>
+                    </address>
+
+                </div>
+            </div>
+            <div class="footer-location">
+                <img src="/assets/map.jpg" alt="">
+            </div>
+        </div>
+        <div class="footer-bar">
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <span class="copyright">Copyright &copy; 2023 CCHS</span>
+            <span class="site-created">Website design by Schoolscool</span>
+        </div>
+    </footer>
+
+    <!-- Script for Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+
+  </body>
+</html>
