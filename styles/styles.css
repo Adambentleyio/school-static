@@ -158,7 +158,10 @@ nav .menu-list {
   background-color: var(--bg-primary);
   top: 85px;
   right: 0;
-  left: 70vw;
+  left: 0;
+}
+nav .menu-list li {
+  font-size: clamp(1.2rem, 1.5vw, 1.2rem);
 }
 
 #carouselExampleIndicators {
@@ -189,7 +192,7 @@ nav .menu-list {
   flex: 1;
 }
 #carouselExampleIndicators .hero-text h1 {
-  font-size: clamp(1rem, 4vw, 3rem);
+  font-size: clamp(1.2rem, 4vw, 3rem);
   margin: 1rem;
   max-width: 20ch;
   z-index: 1;
@@ -475,7 +478,7 @@ button,
 li,
 a {
   font-family: var(--font-primary);
-  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
 }
 
 img {

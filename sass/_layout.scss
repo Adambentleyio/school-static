@@ -87,6 +87,8 @@ nav {
     }
   }
 
+  //   Mobile Navigation Menu Container
+
   .menu-list {
     position: fixed;
     transform: translatex(100%);
@@ -96,7 +98,11 @@ nav {
     background-color: var(--bg-primary);
     top: 85px;
     right: 0;
-    left: 70vw;
+    left: 0;
+
+    li {
+      font-size: clamp(1.2rem, 1.5vw, 1.2rem);
+    }
   }
 }
 
@@ -134,7 +140,7 @@ nav {
     flex: 1;
 
     h1 {
-      font-size: clamp(1rem, 4vw, 3rem);
+      font-size: clamp(1.2rem, 4vw, 3rem);
       margin: 1rem;
       max-width: 20ch;
       z-index: 1;
